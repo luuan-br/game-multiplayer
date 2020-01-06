@@ -1,0 +1,21 @@
+{
+	"name": "cls",
+	"version": "1.0.0",
+	"description": "",
+	"main": "serve.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon serve.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"socket.io": "^2.3.0",
+		"sucrase": "^3.12.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
+}
